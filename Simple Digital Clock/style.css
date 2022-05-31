@@ -1,0 +1,39 @@
+body {
+    background-color: slategrey;
+    color: beige;
+    font-family: Arial, serif;
+}
+
+#time {
+    font-size: 120px;
+}
+
+#date {
+    font-size: 60px;
+}
+
+.clock-container {
+    width: 80%;
+    margin: auto;
+    text-align: -moz-center;
+}
+
+.title-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#toggle-btn {
+    padding: 10px 24px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+#toggle-btn:hover {
+    background-color: dimgrey;
+    cursor: pointer;
+}
+
